@@ -13,11 +13,13 @@
     "@zeit/next-sass": "^1.0.1",
     "antd": "^4.1.1",
     "babel-plugin-import": "^1.13.0",
+    "markdown-navbar": "^1.4.1",
     "next": "9.3.4",
     "next-compose-plugins": "^2.2.0",
     "next-images": "^1.4.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-markdown": "^4.3.1"
   },
   "devDependencies": {
     "node-sass": "^4.13.1"
