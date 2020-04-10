@@ -48,10 +48,12 @@ module.exports = appInfo => {
     csrf: {
       enable: false,
     },
-    domainWhiteList: [ '*' ],
+    domainWhiteList: [ 'http://127.0.0.1:3000', 'http://127.0.0.1:3001' ],
   };
   config.cors = {
-    origin: '*',
+    // 允许哪些端口可以跨域
+    // origin: 'http://127.0.0.1:3000',
+    credentials: true, // 允许cookie 跨域
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
   };
   return {
